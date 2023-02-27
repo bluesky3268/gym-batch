@@ -8,3 +8,8 @@ spring:
     password: passlocal123
     hikari:
       maximum-pool-size: 20
+
+
+  batch:
+    jdbc:
+      initialize-schema: always
